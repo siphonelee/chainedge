@@ -29,8 +29,8 @@ use futures::StreamExt;
 pub mod admin;
 pub mod populate;
 
-const PROXY_FROM_DOMAIN: &str = "slow.coreyja.com:3001";
-const PROXY_ORIGIN_DOMAIN: &str = "slow-server.fly.dev:3000";
+const PROXY_FROM_DOMAIN: &str = "node1.chainedge.io:3001";
+const PROXY_ORIGIN_DOMAIN: &str = "node2.chainedge.io:3000";
 const CONTRACT_ADDRESS: &str = "0x365D9FFd3334d12f89f8510cd352b3DbB5f4Cf85";
 const RPC_URL: &str = "https://rpc.open-campus-codex.gelato.digital/";
 
